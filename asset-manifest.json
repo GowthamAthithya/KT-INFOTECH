@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/KT-INFOTECH/static/css/main.0804637a.css",
+    "main.js": "/KT-INFOTECH/static/js/main.a7fd7627.js",
+    "static/media/companyLogo.jpeg": "/KT-INFOTECH/static/media/companyLogo.642c93b31e448b4cae26.jpeg",
+    "index.html": "/KT-INFOTECH/index.html",
+    "main.0804637a.css.map": "/KT-INFOTECH/static/css/main.0804637a.css.map",
+    "main.a7fd7627.js.map": "/KT-INFOTECH/static/js/main.a7fd7627.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0804637a.css",
+    "static/js/main.a7fd7627.js"
+  ]
+}
