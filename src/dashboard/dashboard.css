@@ -1,0 +1,122 @@
+
+
+
+.dashboard{
+    display: flex;
+}
+
+/*dashboard Navigation start*/
+
+.dashboard-Navigation .active {
+    background-color: #fff ;
+}
+.dashboard-Navigation li {
+    color:blue;
+    height:70px;
+    width:200px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dashboard-Navigation-box{
+    background-color: rgb(208, 208, 255);
+    padding: 25px 20px 0 0;
+    margin: 0 5% 0 0;
+}
+
+.dashboard-Navigation{
+    display: flex;
+    flex-direction: column;
+    left: 0; top: 0;
+    height: 80vh;
+    width: 20%;
+}
+
+.dashboard-Navigation li{
+    padding: 20px 0;
+    text-align: center;
+
+}
+/*dashboard Navigation end*/
+
+
+/*dashboard content start*/
+.dashboardLeftRight{
+    display: flex;
+    width: 100%;
+}
+.profileContainer{
+    flex-basis: 50%;
+    padding: 20px;
+}
+.dashboardRightside{
+    flex-basis: 50%;
+    text-align: center;
+    margin: auto 0;
+}
+.payslip{
+    padding: 20px;
+}
+.leaveRequest{
+    padding: 20px;
+}
+/*dashboard content end*/
+
+
+/*Announcement*/
+
+
+.announcement-table table{
+    width:90%
+}
+
+.announcement-table th{
+    background-color: rgb(191, 207, 246);
+    height: 50px;
+}
+
+.announcement-table td{
+    background-color: rgb(223, 223, 249);
+    width: 100%;
+    height: 50px;
+}
+
+/*Attendance*/
+
+
+.editable-cell {
+    position: relative;
+  }
+  
+  .editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+  }
+  
+  .editable-row:hover .editable-cell-value-wrap {
+    padding: 4px 11px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+  }
+  
+  [data-theme='dark'] .editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #434343;
+  }
+
+
+/*Task*/
+
+/* .profileContainer{
+    padding: 20px;
+    margin:0;
+} */
+
+.clockButton{
+   background-color:green;
+   color: beige;
+}
+.clockButton:hover{
+    color:green;
+    background-color: beige;
+}
+
